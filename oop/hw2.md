@@ -1,6 +1,7 @@
 1. Create structure for department:
     * There are 3 types of employee: developer, designer and manager
-    * Each employee has: first name, second name, salary, experiance (years) and manager
+    * Each employee has: first name, second name, salary, experiance (years)
+    * Eachdesigner, developer or manager can have higher managers
     * Each designer has effectivness coefficient(0-1)
     * Each manager has team of developers and designers.
     * Department should have list of managers(which have their own teams)
