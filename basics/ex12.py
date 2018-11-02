@@ -83,7 +83,7 @@ def print_map(arr):
             if char == "0":
                 c = "~"
             elif char == "1":
-                c = "#"
+                c = "~"
             elif char == "2":
                 c = "X"
             print(c + " ", end="")
@@ -94,6 +94,9 @@ def game(n):
     add_ship(arr, 3)
     add_ship(arr, 1)
     add_ship(arr, 2)
+    add_ship(arr, 3)
+    add_ship(arr, 4)
+    add_ship(arr, 5)
     print_map(arr)
     while True:
         try:
