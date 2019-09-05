@@ -1,4 +1,4 @@
-1. Define a function, that takes string as argument and prints `"Hello, %arg%!"`
+1. Define a function, that takes string as argument `arg` and prints `"Hello, %arg%!"`
 2. Define a function `sum()` and a function `multiply()` that sums and multiplies (respectively) all the numbers in a list of numbers. For example, `sum([1, 2, 3, 4])` should return 10, and `multiply([1, 2, 3, 4])` should return 24.
 3. Define a function `reverse()` that computes the reversal of a string. For example, `reverse("I am testing")` should return the string "gnitset ma I".
 4. Define a function `isPalindrome()` that recognizes palindromes (i.e. words that look the same written backwards). For example, `isPalindrome("radar")` should return True.
